@@ -1,0 +1,49 @@
+.button {
+    margin-right: 5px;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(76, 175, 80);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px rgb(153, 153, 153);
+}
+
+.button:hover {
+    background-color: rgb(62, 142, 65)
+}
+
+.button:active {
+    background-color: rgb(62, 142, 65);
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+}
+
+button[data='neutral'] {
+    background-color: rgb(191, 191, 191);
+}
+
+button[data='neutral']:hover {
+    background-color: rgb(137, 137, 137);
+}
+
+button[data='neutral']:active {
+    background-color: rgb(67, 67, 67);
+}
+
+button[data='bad'] {
+    background-color: rgb(251, 72, 72);
+}
+
+button[data='bad']:hover {
+    background-color: rgb(252, 36, 36);
+}
+
+button[data='bad']:active {
+    background-color: red;
+}
